@@ -18,7 +18,7 @@ WHISPER_COMPUTE = "int8"
 VAD_THRESHOLD         = 0.5
 VAD_MIN_SILENCE_MS    = 600
 
-BACKEND_URL = "http://100.80.81.61:8000/chat"   # ← paste your Tailscale IP here
+BACKEND_URL = "http://100.100.53.80:8000/chat"   # ← paste your Tailscale IP here
 
 # ─── Shared state ─────────────────────────────────────────────────────────────
 audio_queue   = queue.Queue()
